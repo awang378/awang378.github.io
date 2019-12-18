@@ -1,6 +1,6 @@
-Personal Website built with HTML, CSS, and Javascript on top of a Bootstrap Theme
+### Personal Website built with HTML, CSS, and Javascript on top of a Bootstrap Theme
 
-##### Credits
+#### Credits
 
 Template:
 
