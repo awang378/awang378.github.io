@@ -298,7 +298,7 @@ footer {
     padding: 15px 25px;
     border: 3px solid #137bc0;
     border-radius: 30px;
-    margin: 5px;
+    margin-right: 25px;
     @include transition();
 
     &:hover {
@@ -388,7 +388,7 @@ footer {
 }
 
 .social-links { 
-    font-size: 40px;
+    font-size: 32px;
     margin-top: 15px;
     position: relative;
     right: 25px;
@@ -560,11 +560,12 @@ footer {
         margin: 0 0 15px 0;
     }
 
-    p {
+    p, ul  {
         color: $text;
         font-size: 0.9em;
         margin: 0;
     }
+
 }
 
 .vtimeline-point {
@@ -880,7 +881,6 @@ footer {
         &:before, &:after {
             left: 23px;
         }
-
     }
 
     .vtimeline-date {
