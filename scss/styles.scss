@@ -34,7 +34,7 @@
 */
 
 // Define base and accent colors
-$base-color: #1ba7e9;
+$base-color: #137bc0;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
@@ -292,17 +292,18 @@ footer {
     }
 }
 
-.btn-rounded-white {
+.btn-rounded {
     display: inline-block;
-    color: #fff;
+    color: #137bc0;
     padding: 15px 25px;
-    border: 3px solid #fff;
+    border: 3px solid #137bc0;
     border-radius: 30px;
+    margin: 5px;
     @include transition();
 
     &:hover {
-        color: $base-color;
-        background: #fff;
+        color: #fff;
+        background: #137bc0;
         text-decoration: none;
     }
 }
