@@ -299,6 +299,7 @@ footer {
     border: 3px solid #137bc0;
     border-radius: 30px;
     margin-right: 25px;
+    margin-bottom: 25px;
     @include transition();
 
     &:hover {
