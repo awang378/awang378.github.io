@@ -121,10 +121,10 @@ h1 {
   background-image: url("./images/la.jpg");
 }
 .item:nth-of-type(10) {
-  background-image: url("./images/timesquare.jpg");
+  background-image: url("./images/timesquare.png");
 }
 .item:nth-of-type(11) {
-  background-image: url("./images/library.jpg");
+  background-image: url("./images/library.png");
 }
 .item:nth-of-type(12) {
   background-image: url("./images/rialto.jpg");
@@ -136,7 +136,7 @@ h1 {
   background-image: url("./images/vandy.jpg");
 }
 .item:nth-of-type(15) {
-  background-image: url("./images/golden.jpg");
+  background-image: url("./images/golden.png");
 }
 .item:nth-of-type(16) {
   background-image: url("./images/duke.jpg");
