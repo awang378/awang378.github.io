@@ -115,37 +115,37 @@ h1 {
   background-image: url("./images/fig.jpg");
 }
 .item:nth-of-type(8) {
-  background-image: url("./images/sphere.jpg");
+  background-image: url("./images/chicago.jpg");
 }
 .item:nth-of-type(9) {
   background-image: url("./images/la.jpg");
 }
 .item:nth-of-type(10) {
-  background-image: url("./images/rialto.jpg");
+  background-image: url("./images/timesquare.jpg");
 }
 .item:nth-of-type(11) {
-  background-image: url("./images/library.JPG");
+  background-image: url("./images/library.jpg");
 }
 .item:nth-of-type(12) {
-  background-image: url("./images/clemson.jpg");
+  background-image: url("./images/rialto.jpg");
 }
 .item:nth-of-type(13) {
-  background-image: url("./images/colloseum.JPG");
+  background-image: url("./images/colosseum.jpg");
 }
 .item:nth-of-type(14) {
-  background-image: url("./images/vatican.jpg");
+  background-image: url("./images/vandy.jpg");
 }
 .item:nth-of-type(15) {
-  background-image: url("./images/vandy.png");
+  background-image: url("./images/golden.jpg");
 }
 .item:nth-of-type(16) {
   background-image: url("./images/duke.jpg");
 }
 .item:nth-of-type(17) {
-  background-image: url("./images/chicago.jpg");
+  background-image: url("./images/sphere.jpg");
 }
 .item:nth-of-type(18) {
-  background-image: url("./images/florence.JPG");
+  background-image: url("./images/savannah.jpg");
 }
 .item:after {
   content: '';
