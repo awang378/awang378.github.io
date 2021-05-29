@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d50f1219.chunk.css",
+    "main.js": "/static/js/main.10e8ea49.chunk.js",
+    "main.js.map": "/static/js/main.10e8ea49.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.10e7cadc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.10e7cadc.js.map",
+    "static/js/2.856193f2.chunk.js": "/static/js/2.856193f2.chunk.js",
+    "static/js/2.856193f2.chunk.js.map": "/static/js/2.856193f2.chunk.js.map",
+    "static/css/3.c442e883.chunk.css": "/static/css/3.c442e883.chunk.css",
+    "static/js/3.44ff8da3.chunk.js": "/static/js/3.44ff8da3.chunk.js",
+    "static/js/3.44ff8da3.chunk.js.map": "/static/js/3.44ff8da3.chunk.js.map",
+    "static/css/4.c8ea90b0.chunk.css": "/static/css/4.c8ea90b0.chunk.css",
+    "static/js/4.dbbb63ae.chunk.js": "/static/js/4.dbbb63ae.chunk.js",
+    "static/js/4.dbbb63ae.chunk.js.map": "/static/js/4.dbbb63ae.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/3.c442e883.chunk.css.map": "/static/css/3.c442e883.chunk.css.map",
+    "static/css/4.c8ea90b0.chunk.css.map": "/static/css/4.c8ea90b0.chunk.css.map",
+    "static/css/main.d50f1219.chunk.css.map": "/static/css/main.d50f1219.chunk.css.map",
+    "static/js/2.856193f2.chunk.js.LICENSE.txt": "/static/js/2.856193f2.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/Montserrat-Regular.3cd78665.ttf",
+    "static/media/bog.png": "/static/media/bog.3d5e786b.png",
+    "static/media/claws.png": "/static/media/claws.356402e5.png",
+    "static/media/codeInLogo.webp": "/static/media/codeInLogo.e41a71d5.webp",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d3.svg",
+    "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445ca.svg",
+    "static/media/estadium.png": "/static/media/estadium.85aec35b.png",
+    "static/media/hacklytics.png": "/static/media/hacklytics.dcfa4bb2.png",
+    "static/media/manOnTable.svg": "/static/media/manOnTable.8f117eb2.svg",
+    "static/media/skill.svg": "/static/media/skill.35a14766.svg",
+    "static/media/TalkCard.css": "/static/media/talksCardBack.73ed1545.svg",
+    "static/media/vis.png": "/static/media/vis.b9fa9ef9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.10e7cadc.js",
+    "static/js/2.856193f2.chunk.js",
+    "static/css/main.d50f1219.chunk.css",
+    "static/js/main.10e8ea49.chunk.js"
+  ]
+}
