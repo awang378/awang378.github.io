@@ -34,7 +34,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "About Me",
-  //subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  //subTitle: "",
   skills: [
     emoji(
       "⚡ I'm a rising 4th year BS/MS CS major at Georgia Tech interning at Capital One this summer 🏦!"
