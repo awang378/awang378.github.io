@@ -7,7 +7,7 @@ env:
 on:
   push:
     branches:
-      - gh-pages
+      - master
   schedule:
     - cron: "0 12 1 * *"
 jobs:
