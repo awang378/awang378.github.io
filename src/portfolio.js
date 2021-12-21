@@ -37,7 +37,7 @@ const skillsSection = {
   //subTitle: "",
   skills: [
     emoji(
-      "⚡ I'm a rising 4th year BS/MS CS major at Georgia Tech interning at Capital One this summer 🏦!"
+      "⚡ I'm a 4th year BS/MS CS major at Georgia Tech interning at Capital One this summer 🏦!"
     ),
     emoji(
       "⚡ Experienced with full stack web development 🌐 with the MERN stack and SQL/NoSQL databases and data science 📊 using Pandas, NumPy, Scikit-Learn, Matplotlib, and Jupyter."
@@ -103,8 +103,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "Laravel",
-      fontAwesomeClassname: "fab fa-laravel"
+      skillName: "Jira",
+      fontAwesomeClassname: "fab fa-jira"
     },
     {
       skillName: "Markdown",
@@ -121,39 +121,17 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Georgia Institute of Technology",
-      logo: require("./assets/images/gt1.png").default,
+      logo: require("./assets/images/gt.jpeg"),
       subHeader: "Master of Science in Computer Science",
       duration: "January 2022 - December 2022",
-      desc: "Specialization: Machine Learning",
-      descBullets: [
-        "Data & Visual Analytics",
-        "Machine Learning",
-        "Computer Vision"
-      ]
+      desc: "Specialization: Machine Learning"
     },
     {
       schoolName: "Georgia Institute of Technology",
-      logo: require("./assets/images/gt.png").default,
+      logo: require("./assets/images/gt.jpeg"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "August 2018 - December 2021",
-      desc: "Threads: Intelligence & Information Internetworks",
-      descBullets: [
-        "Object-Oriented Programming",
-        "Intro to Discrete Math",
-        "Data Structures & Algorithms",
-        "Object-Oriented Design",
-        "Design & Analysis of Algorithms",
-        "Applied Combinatorics",
-        "Computer Organization & Programming",
-        "Intro to Artificial Intelligence",
-        "Intro to Database Systems",
-        "Computer Systems & Networks",
-        "Robotics & Perception",
-        "Computer Networking",
-        "Intro to Information Security",
-        "Automata & Complexity",
-        "Computing, Society, & Professionalism"
-      ]
+      desc: "Threads: Intelligence & Information Internetworks"
     }
   ]
 };
@@ -189,47 +167,48 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Graduate Teaching Assistant",
+      company: "Georgia Tech CoC",
+      companylogo: require("./assets/images/gtcomputing.jpeg"),
+      date: "January 2022 - Present",
+      desc: "GTA for CX 4242/CSE 6242 Data & Visual Analytics",
+      descBullets: []
+    },
+    {
       role: "Software Engineer Intern",
       company: "Capital One",
-      companylogo: require("./assets/images/c1.png").default,
+      companylogo: require("./assets/images/c1.png"),
       date: "June 2021 - August 2021",
-      desc: "",
+      desc:
+        "Worked on Spark card decline prediction for Small Business Card within Card Tech.",
       descBullets: []
     },
     {
       role: "Undergraduate Research Assistant",
       company: "CLAWS",
-      companylogo: require("./assets/images/claws.png").default,
+      companylogo: require("./assets/images/claws.png"),
       date: "January 2021 - May 2021",
-      desc: "Computational Data Lab for the Web and Society",
-      descBullets: [
-        "Created a recommender systems benchmark platform supervised by Dr. Srijan Kumar that evaluates the robustness of RecSys models.",
-        "Performed benchmark dataset splits using Scikit-Learn and random deletion attacks using Pandas.",
-        "Implemented Python data loader scripts and designed the front facing website with MkDocs inspired by similar ongoing research projects."
-      ]
+      desc:
+        "Prototyped a recommender systems benchmark platform for the Computational Data Lab for the Web and Society.",
+      descBullets: []
     },
     {
       role: "Software Developer",
       company: "Bits of Good",
-      companylogo: require("./assets/images/bog.png").default,
+      companylogo: require("./assets/images/bog.png"),
       date: "August 2020 – Present",
-      desc: "",
-      descBullets: [
-        "Currently building the backend API of a mobile app for Umi Feeds, a local Atlanta food rescue non-profit, using TypeScript, Express, Auth0, and MongoDB to manage and process volunteer donations in an Agile environment.",
-        "Previously worked on implementing various frontend and backend features for a General Solutions landing page using Next.js."
-      ]
+      desc:
+        "Building the backend of an app for Umi Feeds, a food rescue non-profit, using the MERN stack.",
+      descBullets: []
     },
     {
       role: "Software Engineer Intern",
       company: "StudentSide",
-      companylogo: require("./assets/images/studentside.jpg").default,
+      companylogo: require("./assets/images/studentside.jpg"),
       date: "June 2020 - August 2020",
-      desc: "",
-      descBullets: [
-        "Part of an edtech startup building an end-to-end service to help simplify the college search process for high school students by connecting them to 500+ college student mentors.",
-        "Developed the MVP website’s back end to support client-side requests such as user registration, mentor filtering, and appointment booking using PostgreSQL, Express, and Node.js.",
-        "Deployed REST API to AWS Lambda with Serverless and utilized AWS RDS and S3 buckets for data storage."
-      ]
+      desc:
+        "Created MVP backend for a website to connect high school students to college student mentors using Express, PostgreSQL, and AWS.",
+      descBullets: []
     }
   ]
 };
@@ -249,7 +228,7 @@ const bigProjects = {
   subtitle: "Some cool things I've been a part of",
   projects: [
     {
-      image: require("./assets/images/hacklytics.png").default,
+      image: require("./assets/images/hacklytics.png"),
       projectName: "Hacklytics 2021",
       projectDesc:
         "As an operations member, I helped plan logistics and scheduling, coordinate the virtual venue and platform, and run Georgia Tech's premier data hackathon.",
@@ -261,7 +240,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/estadium.png").default,
+      image: require("./assets/images/estadium.png"),
       projectName: "Estadium-IoPT",
       projectDesc:
         "As a backend developer, I utilized Laravel and the LAMP stack to create backend API infrastructure to support an Internet of People and Things within Bobby Dodd Stadium.",
@@ -274,7 +253,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/vis.png").default,
+      image: require("./assets/images/vis.png"),
       projectName: "Georgia Tech Vis Lab",
       projectDesc:
         "As a student researcher under Dr. John Stasko, I learned common practices used in information visualiztion and explored declarative data vis grammars like Altair and Vega-Lite.",
@@ -291,7 +270,6 @@ const bigProjects = {
 };
 
 // Achievement Section
-// Include certificates, talks etc
 
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
@@ -300,25 +278,17 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      title: "",
+      subtitle: "",
+      image: require("./assets/images/gt.png"),
       footerLink: [
         {
-          name: "Certification",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "",
+          url: ""
         },
         {
-          name: "Award Letter",
-          url:
-            "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url:
-            "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "",
+          url: ""
         }
       ]
     }
@@ -335,17 +305,9 @@ const blogSection = {
 
   blogs: [
     {
-      url:
-        "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+      url: "",
+      title: "",
+      description: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
