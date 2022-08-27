@@ -10,10 +10,10 @@ const greeting = {
   username: "Andrew Wang",
   title: "Hi, I'm Andrew",
   subTitle: emoji(
-    "A computer science student at Georgia Tech 🐝  with interests in full stack web development, data science, and human-computer interaction."
+    "A computer science student at Georgia Tech 🐝  with interests in full stack web development and data-driven AI applications."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1T1Ey5HhSyTQT1UfF39kx_fKYPpcCoxzR/view?usp=sharing",
+    "https://drive.google.com/file/d/1X0HHplI1FNFy9lfEWEezTZyJihNVqITU/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -23,7 +23,6 @@ const socialMediaLinks = {
   github: "https://github.com/awang378",
   linkedin: "https://www.linkedin.com/in/andrewrwang",
   gmail: "andrewwang.arw@gmail.com",
-  instagram: "https://www.instagram.com/wangdrew",
   //medium: "",
   //stackoverflow: "",
   // Instagram and Twitter are also supported in the links!
@@ -37,16 +36,14 @@ const skillsSection = {
   //subTitle: "",
   skills: [
     emoji(
-      "⚡ I'm a 4th year BS/MS CS major at Georgia Tech interning at Capital One this summer 🏦!"
+      "⚡ I'm a CS Master's student at Georgia Tech graduating in December 🎓!"
+    ),
+    emoji("⚡ Experienced with backend development ⚙️ and data science 📊."),
+    emoji(
+      "⚡ Currently, looking to learn new technologies 🌱 and work on cool projects 👨‍💻."
     ),
     emoji(
-      "⚡ Experienced with full stack web development 🌐 with the MERN stack and SQL/NoSQL databases and data science 📊 using Pandas, NumPy, Scikit-Learn, Matplotlib, and Jupyter."
-    ),
-    emoji(
-      "⚡ Currently, I'm looking to gain more experience in software development by learning new technologies 🌱 and working on projects 👨‍💻."
-    ),
-    emoji(
-      "⚡ In my free time, I enjoy watching sports (big Roger Federer 🎾 and Steph Curry 🏀 fan), hanging out with friends 😌, running 🏃, exploring new food places (lowkey boba addiction 🧋), and photography 📸."
+      "⚡ In my free time, I enjoy watching sports 🎾 🏀 , hanging out with friends 😌, running 🏃, exploring new food places🧋, and photography 📸."
     )
   ],
 
@@ -61,10 +58,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Node.js",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "git",
@@ -95,6 +88,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-js"
     },
     {
+      skillName: "Go",
+      fontAwesomeClassname: "fa-brands fa-golang"
+    },
+    {
       skillName: "React.js",
       fontAwesomeClassname: "fab fa-react"
     },
@@ -103,12 +100,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
       skillName: "Jira",
       fontAwesomeClassname: "fab fa-jira"
     },
     {
       skillName: "Markdown",
       fontAwesomeClassname: "fab fa-markdown"
+    },
+    {
+      skillName: "macOS",
+      fontAwesomeClassname: "fab fa-apple"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -167,10 +172,19 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer Intern",
+      company: "Capital One",
+      companylogo: require("./assets/images/c1.png"),
+      date: "June 2022 - August 2022",
+      desc:
+        "Implemented policy remediation feature for an internal IAM tool within Cloud & Productivity Engineering. ",
+      descBullets: []
+    },
+    {
       role: "Graduate Teaching Assistant",
       company: "Georgia Tech CoC",
       companylogo: require("./assets/images/gtcomputing.jpeg"),
-      date: "January 2022 - Present",
+      date: "January 2022 - December 2022",
       desc: "GTA for CX 4242/CSE 6242 Data & Visual Analytics",
       descBullets: []
     },
@@ -196,18 +210,18 @@ const workExperiences = {
       role: "Software Developer",
       company: "Bits of Good",
       companylogo: require("./assets/images/bog.png"),
-      date: "August 2020 – Present",
+      date: "August 2020 – May 2022",
       desc:
-        "Building the backend of an app for Umi Feeds, a food rescue non-profit, using the MERN stack.",
+        "Built the backend of an app for Umi Feeds, a food rescue non-profit, using the MERN stack.",
       descBullets: []
     },
     {
-      role: "Software Engineer Intern",
+      role: "Software Developer",
       company: "StudentSide",
       companylogo: require("./assets/images/studentside.jpg"),
       date: "June 2020 - August 2020",
       desc:
-        "Created MVP backend for a website to connect high school students to college student mentors using Express, PostgreSQL, and AWS.",
+        "Created MVP backend for a website to connect high school students to college student mentors.",
       descBullets: []
     }
   ]
@@ -216,7 +230,7 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSource = {
+const projects = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
@@ -363,7 +377,7 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
+  projects,
   bigProjects,
   achievementSection,
   blogSection,
